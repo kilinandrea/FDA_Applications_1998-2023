@@ -2,9 +2,11 @@
 Looking at the FDA applications between years 1998 and 2023, span of 25 years. Data sourced from https://www.fda.gov/drugs/drug-approvals-and-databases/drugsfda-data-files 
 
 Entity relationship diagram:
+
 ![Image](https://github.com/kilinandrea/FDA_Applications_1998-2023/blob/main/Drugs-FDA-ERD-Diagram-(Small).png)
 
-Drugs@FDA consists of 11 tables:
+
+*Drugs@FDA consists of 11 tables:*
 
 **ActionTypes_Lookup**
 
