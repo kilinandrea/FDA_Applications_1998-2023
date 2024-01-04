@@ -12,11 +12,11 @@ Entity relationship diagram:
 
 [ActionTypes_LookupID] [int] IDENTITY(1,1) NOT NULL
 
-[ActionTypes_LookupDescription] [varchar](100) NOT NULL
+[ActionTypes_LookupDescription] [varchar] (100) NOT NULL
 
-[SupplCategoryLevel1Code] [varchar](100) NULL
+[SupplCategoryLevel1Code] [varchar] (100) NULL
 
-[SupplCategoryLevel2Code] [varchar](100) NULL
+[SupplCategoryLevel2Code] [varchar] (100) NULL
 
 
 **ApplicationDocs**
@@ -27,32 +27,32 @@ Entity relationship diagram:
 
 [ApplNo] [char](6) NOT NULL
 
-[SubmissionType] [char](10) NOT NULL
+[SubmissionType] [char] (10) NOT NULL
 
 [SubmissionNo] [int] NOT NULL
 
-[ApplicationDocsTitle] [varchar](100) NULL
+[ApplicationDocsTitle] [varchar] (100) NULL
 
-[ApplicationDocsURL] [varchar](200) NULL
+[ApplicationDocsURL] [varchar] (200) NULL
 
 [ApplicationDocsDate] [datetime] NULL
 
 **Applications**
 
-[ApplNo] [char](6) NOT NULL
+[ApplNo] [char ](6) NOT NULL
 
-[ApplType] [char](5) NOT NULL
+[ApplType] [char] (5) NOT NULL
 
 [ApplPublicNotes] [text] NULL
 
-[SponsorName] [char](500) NULL
+[SponsorName] [char] (500) NULL
 
 
 **MarketingStatus**
 
-[ApplNo] [char](6) NOT NULL
+[ApplNo] [char] (6) NOT NULL
 
-[ProductNo] [char](3) NOT NULL
+[ProductNo] [char] (3) NOT NULL
 
 [MarketingStatusID] [int] NOT NULL
 
@@ -60,23 +60,23 @@ Entity relationship diagram:
 
 [MarketingStatusID] [int] IDENTITY(1,1) NOT NULL
 
-[MarketingStatusDescription] [varchar](200) NOT NULL
+[MarketingStatusDescription] [varchar] (200) NOT NULL
 
 **Products**
 
-[ApplNo] [char](6) NOT NULL
+[ApplNo] [char] (6) NOT NULL
 
-[ProductNo] [char](6) NOT NULL
+[ProductNo] [char] (6) NOT NULL
 
-[Form] [varchar](255) NULL
+[Form] [varchar] (255) NULL
 
-[Strength] varchar](240) NULL
+[Strength] varchar] (240) NULL
 
 [ReferenceDrug] [int] NULL
 
-[DrugName] [varchar](125) NULL
+[DrugName] [varchar] (125) NULL
 
-[ActiveIngredient] [varchar](255) NULL
+[ActiveIngredient] [varchar] (255) NULL
 
 [ReferenceStandard] [int] NULL
 
