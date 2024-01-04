@@ -25,7 +25,7 @@ Entity relationship diagram:
 
 [ApplicationDocsTypeID] [int] NOT NULL
 
-[ApplNo] [char](6) NOT NULL
+[ApplNo] [char] (6) NOT NULL
 
 [SubmissionType] [char] (10) NOT NULL
 
@@ -39,7 +39,7 @@ Entity relationship diagram:
 
 **Applications**
 
-[ApplNo] [char ](6) NOT NULL
+[ApplNo] [char] (6) NOT NULL
 
 [ApplType] [char] (5) NOT NULL
 
