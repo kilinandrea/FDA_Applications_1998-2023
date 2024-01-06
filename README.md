@@ -8,15 +8,11 @@ Entity relationship diagram:
 
 *Drugs@FDA consists of 11 tables, I picked the following five:*
 
-**ActionTypes_Lookup**
+**ApplicationsDocsType_Lookup**
 
-[ActionTypes_LookupID] [int] IDENTITY(1,1) NOT NULL
+[ApplicationDocsType_Lookup_ID] [int] IDENTITY(1,1) NOT NULL
 
-[ActionTypes_LookupDescription] [varchar] (100) NOT NULL
-
-[SupplCategoryLevel1Code] [varchar] (100) NULL
-
-[SupplCategoryLevel2Code] [varchar] (100) NULL
+[ApplicationDocsType_Lookup_Description] [varchar] (200) NOT NULL
 
 
 **ApplicationDocs**
